@@ -1,0 +1,24 @@
+.letra1 {
+  font-family: "Fraunces", serif;
+  font-size: 14px;
+}
+
+.letra2 {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+}
+
+.btn{
+    background-color: #11AC73;
+    border: #11AC73;
+
+}
+
+
+.precio1{
+    color: #11AC73;
+}
+.container{
+    background-color:   #EEEBE8;
+}
+
