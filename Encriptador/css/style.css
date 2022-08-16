@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn {
+  width: 200px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.container-fluid {
+  background-color: #cacddb;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.form-group1 {
+  background-color: rgba(141, 31, 86, 0.164);
+}
+
+.textarea1 {
+  background-color: rgba(141, 31, 86, 0.164);
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.175);
+}
+.textarea {
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: black;
+}
+
+.footer span {
+  font-weight: bold;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgba(56, 12, 33, 0.849);
+}
+
+@media (max-width: 576px) {
+  .btn {
+    width: 120px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .btn {
+    width: 110px;
+  }
+}
