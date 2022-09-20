@@ -13,7 +13,7 @@
   --White: hsl(0, 0%, 100%);
   --SlightlytransparentwhiteP: hsla(0, 0%, 100%, 0.75);
   --SlightlytransparentwhiteS: hsla(0, 0%, 100%, 0.6);
-  --Layer: rgba(110, 30, 160, 0.7);
+  --Layer: rgba(82, 20, 121, 0.7);
 }
 
 body {
