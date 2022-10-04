@@ -35,7 +35,7 @@ body {
   height: 100vh;
 }
 .card {
-  background-color: #f2e8e0;
+  background-color: white;
   width: 326px;
   border-radius: 16px;
   overflow: hidden;
