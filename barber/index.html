@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barber Art 28-29</title>
+  <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="stylesheet" href="./css/w3.css">
+  <style>
+    .mySlides {display:none;}
+    </style>
+</head>
+
+<body>
+  <header id="hero">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <!-- Logo -->
+        <h1 id="logo">
+          <a href="#"><img src="./img/logo-barber.png" alt="Barber Art" /></a>
+        </h1>
+        <!-- Navbar links -->
+        <ul class="nav-menu">
+
+          <li><a class="nav-link" href="https://wa.me/573217629149">CONTACTO</a></li>
+          <li><a class="nav-link" href="#servicios">SERVICIOS</a></li>
+          <li><a class="nav-link" href="#direccion">UBICACIÓN</a></li>
+          <!-- Hamburger menu -->
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+</header>
+<div>
+    <div class=" w3-display-container">
+      <img class="mySlides" src="./img/1.jpeg" style="width:100%">
+      <img class="mySlides" src="./img/2.jpeg" style="width:100%">
+      <img class="mySlides" src="./img/3.jpeg" style="width:100%">
+      <img class="mySlides" src="./img/4.jpeg" style="width:100%">
+
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+    </script>
+</div>
+
+    <div class="content-text contenido">
+
+      <h2 class="subtitulos" id="servicios">SERVICIOS</h2>
+      <h3 class="subtitulos2">CORTE DE CABELLO</h3>
+      <h3>Lunes a Jueves $13.000</h3>
+      <h3>Viernes, Sábado, Domingo y Festivos $15.000</h3>
+      <p>
+        Cortamos, lavamos y peinamos tu cabello bajo asesoría por parte de un barbero profesional.
+      </p>
+      <h3 class="subtitulos2">ARREGLO DE BARBA</h3>
+      <h3>Lunes a Jueves $16.000</h3>
+      <h3>Viernes, Sábado, Domingo y Festivos $18.000</h3>
+      <p>
+        Cortamos el volumen de tu barba y definimos las líneas del cuello, mejillas y borde posterior de tus patillas,
+        todo bajo asesoría por parte de un barbero profesional. </p>
+      <h3 class="subtitulos2">LIMPIEZA FACIAL $25.000</h3>
+      <p>
+        Exfoliamos para remover células muertas, aplicamos una mascarilla desintoxicante que mejora la elasticidad y el
+        exceso de grasa y finalizamos con una hidratación profunda de tu piel. </p>
+      </div>
+      <div class="content-text">
+
+        <h2 class="subtitulos" id="direccion">DIRECCIÓN</h2>
+
+        <p>
+          CRA 7 # 28-46, Centro, Segundo piso. Pereira-Colombia
+        </p>
+
+
+        <div class="mapa">
+          <iframe class="mapa1"
+            src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2sco!4v1665599423601!5m2!1ses-419!2sco!6m8!1m7!1sGOdFJQiEcNptANyfodd-9w!2m2!1d4.815638668565247!2d-75.70223706155666!3f321.2984845331066!4f2.7234816612502755!5f0.7820865974627469"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="mapa2"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1405.6342748073585!2d-75.70242911685524!3d4.815652664286835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1665599631282!5m2!1ses-419!2sco"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+
+
+
+      <footer id="footer">
+        <div class="container">
+          <a class="logo-footer" href="#"><img src="./img/logo-barber.png" alt="Barber Art" /></a>
+          <!-- Social links -->
+          <div class="social">
+
+            <a href="#"><img src="./img/facebook.png" alt="Facebook barber art" /></a>
+            <a href="https://www.instagram.com/barberart2829/"><img src="./img/instagram.png"
+                alt="Instagram barber art" /></a>
+            <a href="https://wa.me/573217629149"><img src="./img/whatsapp.png" alt="Whatsapp barber art" /></a>
+
+          </div>
+          <!-- Attribution -->
+
+          <p>Copyright &copy; Desarrollado por <a
+              href="https://www.linkedin.com/in/david-julian-jaramillo-a10a832b/"><span class="reserved">
+                Grifhus</span></a></span>, All rights reserved</p>
+        </div>
+      </footer>
+
+
+      <script src="./js/script.js"></script>
+</body>
+
+</html>
