@@ -20,72 +20,59 @@ body {
   font-size: 18px;
 }
 .main-container {
-  height: 490px;
-  width: 281px;
-  margin: 60px auto;
-  border-radius: 16px;
-  padding: 26px;
+  height: 27.22em;
+  width: 15.611em;
+  margin: 3.333em auto;
+  border-radius: 0.889em;
+  padding: 1.444em;
   background-color: var(--Verydarkblue_card_BG);
 }
 .image {
   margin: 0 auto;
   background-image: url(./images/image-equilibrium.jpg);
   background-size: cover;
-  width: 280px;
-  height: 280px;
-  border-radius: 8px;
-  margin-bottom: 22px;
+  width: 15.556em;
+  height: 15.556em;
+  border-radius: 0.444em;
+  margin-bottom: 1.222em;
   overflow: hidden;
-}
-.eye-image {
-  background-color: var(--CyanOpacity);
-  background-image: url(./images/icon-view.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-.eye-image:hover {
-  opacity: 1;
-  cursor: pointer;
 }
 
 h1 {
   color: var(--White);
   font-size: 1.2em;
-  margin-bottom: 17px;
+  margin-bottom: 0.944em;
 }
 
 .description {
   font-size: 0.9em;
   color: var(--Softblue);
-  margin-bottom: 18px;
+  margin-bottom: 1em;
   font-weight: 300;
 }
 .details-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 18px;
+  margin-bottom: 1em;
   font-size: 0.85em;
 }
 .value {
   display: flex;
   align-items: center;
   color: var(--Cyan);
-  gap: 7px;
+  gap: 0.389em;
 }
 
 .time {
   display: flex;
   align-items: center;
   color: var(--Softblue);
-  gap: 7px;
+  gap: 0.389em;
 }
 
 .line {
   border-top: 1px solid var(--Verydarkblue_line);
-  margin-bottom: 15px;
+  margin-bottom: 0.833em;
 }
 .creator-container {
   display: flex;
@@ -93,8 +80,8 @@ h1 {
 }
 .photo {
   background-image: url(./images/image-avatar.png);
-  width: 30px;
-  height: 30px;
+  width: 1.667em;
+  height: 1.667em;
   background-size: cover;
   border: 1px solid var(--White);
   border-radius: 50%;
@@ -102,53 +89,71 @@ h1 {
 .creator {
   color: var(--Softblue);
   font-size: 0.85em;
-  margin-left: 15px;
+  margin-left: 0.833em;
 }
 
 .creator span {
   color: var(--White);
 }
-.title:hover {
-  color: var(--Cyan);
-  cursor: pointer;
-}
+
 .attribution {
-  font-size: 11px;
+  font-size: 0.611em;
   text-align: center;
-  margin-bottom: 18px;
+  margin-bottom: 1em;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 @media (min-width: 900px) {
   .main-container {
-    height: 545px;
-    width: 300px;
+    height: 30.278em;
+    width: 16.667em;
   }
 
   .image {
-    width: 300px;
-    height: 300px;
-    border-radius: 8px;
-    margin-bottom: 23px;
+    width: 16.667em;
+    height: 16.667em;
+    border-radius: 0.444em;
+    margin-bottom: 1.278em;
     overflow: hidden;
   }
   h1 {
-    margin-bottom: 17px;
+    margin-bottom: 0.944em;
   }
   .description {
     font-size: 1em;
     line-height: 1.5em;
-    margin-bottom: 25px;
+    margin-bottom: 1.389em;
   }
   .details-container {
-    margin-bottom: 22px;
+    margin-bottom: 1.222em;
   }
   .value,
   .time {
     font-size: 1.05em;
   }
   .line {
-    margin-bottom: 16px;
+    margin-bottom: 0.889em;
+  }
+}
+
+@media (hover: hover) {
+  .eye-image {
+    background-color: var(--CyanOpacity);
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  .eye-image:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .title:hover {
+    color: var(--Cyan);
+    cursor: pointer;
   }
 }
