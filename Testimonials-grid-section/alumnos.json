@@ -1,0 +1,82 @@
+[
+  {
+    "Numero_Identificacion": 123,
+    "Nombres": "David Julian",
+    "Apellidos": "Jaramillo Ortiz",
+    "Direccion_Domicilio": "M9 C12",
+    "Telefono": 3005291396,
+    "Acudiente": "Luz Marina",
+    "Edad": 11,
+    "Pasatiempos": "Nadar"
+  },
+  {
+    "Numero_Identificacion": 124,
+    "Nombres": "Pablo Andres",
+    "Apellidos": "Quintero",
+    "Direccion_Domicilio": "CR 4 Nr 27",
+    "Telefono": 3002134235,
+    "Acudiente": "Claudia",
+    "Edad": 12,
+    "Pasatiempos": "Escuchar Musica"
+  },
+  {
+    "Numero_Identificacion": 125,
+    "Nombres": "Gina",
+    "Apellidos": "Hernandez",
+    "Direccion_Domicilio": "M9 C18",
+    "Telefono": 3034654354,
+    "Acudiente": "Pedro Emilio",
+    "Edad": 11,
+    "Pasatiempos": "Escuchar Musica"
+  },
+  {
+    "Numero_Identificacion": 126,
+    "Nombres": "Julian",
+    "Apellidos": "Orozco",
+    "Direccion_Domicilio": "M12 C12",
+    "Telefono": 3163243343,
+    "Acudiente": "Azucena",
+    "Edad": 11,
+    "Pasatiempos": "Tocar el Piano"
+  },
+  {
+    "Numero_Identificacion": 127,
+    "Nombres": "Oscar",
+    "Apellidos": "Arango",
+    "Direccion_Domicilio": "CR 12 Nr 19",
+    "Telefono": 3122343245,
+    "Acudiente": "Vladimir",
+    "Edad": 12,
+    "Pasatiempos": "Nadar"
+  },
+  {
+    "Numero_Identificacion": 128,
+    "Nombres": "Patricia",
+    "Apellidos": "Moreno",
+    "Direccion_Domicilio": "M9 C20",
+    "Telefono": 3134324132,
+    "Acudiente": "Andrea",
+    "Edad": 11,
+    "Pasatiempos": "Correr"
+  },
+  {
+    "Numero_Identificacion": 129,
+    "Nombres": "Yuliana",
+    "Apellidos": "Jaramillo Ortiz",
+    "Direccion_Domicilio": "M9 C12",
+    "Telefono": 3123456544,
+    "Acudiente": "Luz Marina",
+    "Edad": 10,
+    "Pasatiempos": "Ver TV"
+  },
+  {
+    "Numero_Identificacion": 130,
+    "Nombres": "Victor",
+    "Apellidos": "Correa",
+    "Direccion_Domicilio": "CR 23 NR 12",
+    "Telefono": 3123432434,
+    "Acudiente": "Emilia",
+    "Edad": 11,
+    "Pasatiempos": "Pintar"
+  }
+]
